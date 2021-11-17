@@ -1,0 +1,774 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <header class="header">
+        <a href="/" style="float:left;margin-left:3%;line-height:5rem;text-decoration:none;color:black;font-size:2.3em;">Sta<span id="blue1">bl</span></a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a style="text-decoration:none;color:black" href="#WhatIsStabl">What Is Stabl</a></li>
+    <li><a style="text-decoration:none;color:black" href="#Features">Features</a></li>
+        <li><a style="text-decoration:none;color:black" href="#HowItWorks">How It Works</a></li>
+        <li><a style="text-decoration:none;color:black" href="#Reminders">Reminders</a></li>
+        <li><a style="text-decoration:none;color:black" href="#EasyLogin">Easy Login</a></li>
+      </ul>
+    </li>
+
+  </ul>
+</header>
+    <script>
+window.addEventListener("load", function(){
+	var load_screen = document.getElementById("load_screen");
+	document.body.removeChild(load_screen);
+});
+</script>
+    <div id="load_screen">
+    <div id="loading">
+        Sta<span id="blue1">bl</span>
+    </div>
+    </div>
+<title>
+Stabl - The Ultimate Energy Saver
+</title>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+                <script type="text/javascript">
+             //javascript code for SMOOTHSCROLLING
+                    $('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+                    
+  });
+             </script>       
+        </script>
+        
+
+    <h1 style="color:white; margin-left:5%;padding-top:22%;">Stabl - One App | To Save Electricity</h1>
+        <h1 style="text-align:center;max-width:90%;padding-top:3%;margin:auto; ">
+    Untill Last year, Stabl was just an idea, but now we have formed a community and created more than 100 algorithms and 10000+ lines of code so that the idea becomes powerful enough to exist in real life.<br><br></h1></center>
+  
+</head>
+<body>
+    <div id="WhatIsStabl"></div>
+    <section id="section">
+        
+<h1 class="heading">What Is Stabl?</h1>
+        <br>
+        <h2 style="margin:auto;max-width:70%;">Stabl, An App interacting with its circuit to reduce electric bills. All you have to do is set up your Monthly Electricity Bill Target. Stabl will do the rest! It'll send you a Push Notification when You are nearing your target, So you can manage how your Electricity is being used.</h2><br><br>
+        <img src="transphone.png" class="curbi">
+    </section>
+    <div id="Features"></div>
+        <center>
+<h1 style="color:white; font-size:3.2em;max-width:95%; padding-bottom:4%;">
+    Features<br></center>
+        </h1>
+        <div class="outer-wrap">
+      <div class="content">
+        
+          <main class="main-area">
+          <section class="cards">
+            <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                           <center> <img class="proper" src="saveenergy.png"></center>
+                        </picture>
+                
+                        <div class="card-content">
+                            <h2>Know Where You Spend</h2>
+                            <p>Stabl tells you all about your electricity usage, with just one tap on its App.<br> You can know, where all is your electricity being used and how much</p>
+                        </div><!-- .card-content -->
+                    </a>
+                </article><!-- .card -->
+
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                           <center> <img class="proper"src="savemoney.png"></center>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Reduce Electric Bills</h2>
+                            <p>Stabl Reminds You, Whenever You Exceed Your Spending Limits. You'll Get Notifications On Stabl's App.</p>
+                        </div><!-- .card-content -->
+                    </a>
+                </article><!-- .card -->
+
+                <article class="card">
+                    <a href="#">
+                        <picture class="thumbnail">
+                           <center> <img class="proper"src="starget.png"></center>
+                        </picture>
+                        <div class="card-content">
+                            <h2>Reach Your Target</h2>
+                            <p>Tell Stabl, What Electric Bill Amount You Want To Target, Stabl Now Sends Notifications Accordingly.</p>
+                        </div><!-- .card-content -->
+                    </a>
+                </article><!-- .card -->
+          
+        </div>
+    
+        </div>
+<div id="HowItWorks"></div>
+    <section id="section2">
+        
+    <center><h1 class="heading">How It Works</h1></center>
+        <center>
+        <div class="steps">
+        <div class="sizing-imp">
+            <img id="img-spacing" src="connection.png"><h2 style="padding-left:2%;font-size:1.5em;color:white; font-family:Lato;">Connect Stabl circuit to your MCB.</h2></div>
+             <div class="sizing-imp"><img id="img-spacing" src="download.png"><h2 style="padding-left:2%;font-size:1.5em;color:white; font-family:Lato;">Download Stabl app. Connect to WI-FI</h2></div>
+             <div class="sizing-imp"><img id="img-spacing" src="wallet.png"><h2 style="padding-left:2%;font-size:1.5em;color:white; font-family:Lato;">Setup your target and save money.</h2>
+            </div>
+        </div>
+        <br>
+        <br>
+           
+    </section>
+        <div id="Reminders"></div>
+        <center><h1 style="color:white; font-size:3.2em;max-width:95%; padding-bottom:4%;">Get Reminders On Exceeding Your Target</h1></center>
+<h2 style="max-width:96%;margin:auto; padding-bottom:20%;">Testing our prototype and implementing it on some of our known houses, After 1 month, Our team noticed upto 40% decrease in people's electric bills</h2>
+<ul class="skills">
+  <li class="skill" aria-label="advanced">Expenditures Before Stabl</li>
+  <li class="skill" aria-label="novice">Expenditures After Stabl</li>
+
+</ul>
+
+ <div id="EasyLogin"></div>
+    <section id="section3">
+        
+    <h1 class="heading">Login To Multiple Devices</h1>
+        <h1>Control from </h1>
+        <h2>Any device</h2>
+        <h2>Anytime.</h2>
+        <h2>Anywhere.</h2>
+        <br>
+        <h2 style="padding-bottom:3%;">One App | One Website<br>Login by entering your details<br>Set a target from anywhere.</h2>
+    </section>
+    <section id="section4">
+    <div id="FAQs"></div>
+    </section>
+</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+                <script type="text/javascript">
+      
+    </script>
+</html>
+<style>
+    
+@import url('https://fonts.googleapis.com/css?family=Lato:100');
+    body {
+        background: -webkit-linear-gradient(45deg, #399E98 25%, #3aa19b 25%, #3aa19b 50%, #399E98 50%, #399E98 75%, #3aa19b 75%, #3aa19b);
+background: -moz-linear-gradient(45deg, #399E98 25%, #3aa19b 25%, #3aa19b 50%, #399E98 50%, #399E98 75%, #3aa19b 75%, #3aa19b);
+background: -o-linear-gradient(45deg, #399E98 25%, #3aa19b 25%, #3aa19b 50%, #399E98 50%, #399E98 75%, #3aa19b 75%, #3aa19b);
+background: linear-gradient(45deg, #399E98 25%, #3aa19b 25%, #3aa19b 50%, #399E98 50%, #399E98 75%, #3aa19b 75%, #3aa19b);
+  background-size:100px 100px;
+        height: 100%;
+
+        margin:0;
+    }
+    /*Effect Of Animation auto scroll and designing of responsive tabs */
+    
+
+.proper {
+	display: block;
+	height: 10%;
+}
+
+
+/* Flexbox */
+@media screen and (min-width: 50em) {
+    
+    .outer-wrap {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    
+    .content {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    
+    .main-area {
+        -webkit-flex: 1 1 auto;
+            -ms-flex: 1 1 auto;
+                flex: 1 1 auto;
+        -webkit-order: 1;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+  
+}
+ .skills {
+        margin-top: 3%;
+        margin-left:5%;
+        font-family: lato;
+        color:white;
+  list-style: none;
+  font-size: 20px;
+  padding: 0;
+}
+.skills .skill {
+  display: block;
+  position: relative;
+  height: 60px;
+  margin: 10px auto;
+  width: 90%;
+}
+@media only screen and (min-width: 900px) {
+  .skills .skill {
+    display: inline-block;
+    width: 25%;
+    margin: 10px;
+  }
+}
+.skills .skill:before, .skills .skill:after {
+  content: "";
+  position: absolute;
+  border-radius: 1px;
+  margin-top: 40px;
+}
+.skills .skill:before {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 20px;
+  background: #eeeeee;
+}
+.skills .skill:after {
+  background-color: #2ea994;
+  background: repeating-linear-gradient(-45deg, #2ea994, #2ea994 10px, #31b59f 10px, #31b59f 20px);
+  height: 16px;
+  top: 2px;
+  right: 95%;
+  bottom: 2px;
+  left: 2px;
+  -webkit-animation: fill 2s both;
+  -moz-animation: fill 2s both;
+  animation: fill 2s both;
+}
+.skills .skill:nth-child(1):after {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+.skills .skill:nth-child(2):after {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.skills .skill:nth-child(3):after {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+.skills .skill:nth-child(4):after {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.skills .skill:nth-child(5):after {
+  -webkit-animation-delay: 2.5s;
+  -moz-animation-delay: 2.5s;
+  animation-delay: 2.5s;
+}
+.skills .skill[aria-label="novice"]:after {
+  right: 75%;
+}
+.skills .skill[aria-label="average"]:after {
+  right: 50%;
+}
+.skills .skill[aria-label="adept"]:after {
+  right: 35%;
+}
+.skills .skill[aria-label="advanced"]:after {
+  right: 20%;
+}
+.skills .skill[aria-label="elite"]:after {
+  right: 10%;
+}
+.skills .skill[aria-label="pro"]:after {
+  right: 2px;
+}
+.skills .skill[aria-label="l33tasuar"]:after {
+  right: -10%;
+}
+/* Card Based Layout - Base styles */
+
+.card {
+    border: 10px solid transparent;
+	background: transparent;
+	margin-bottom: 2em;	
+}
+
+.card a {
+	color: black;
+	text-decoration: none;
+}
+
+   
+
+.card-content {
+	padding: 1.4em;
+}
+
+.card-content h2 {
+    color:white;
+    font-family:sans-serif;
+	margin-top: 0;
+    text-align: center;
+	margin-bottom: .5em;
+	font-weight: normal;
+}
+
+.card-content p {
+    font-family:sans-serif;
+    color:#2f4f4f;
+    text-align: center;
+	font-size: 1.3em;
+}
+
+/* Flexbox stuff */
+    
+    /*My on scroll bar animation*/
+    
+
+    /*endd*/
+
+@media screen and (min-width: 80em) {
+    .cards {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-top: -1em;
+    }
+
+    .card {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex: 0 1 calc(50% - .5em);
+            -ms-flex: 0 1 calc(50% - .5em);
+                flex: 0 1 calc(50% - .5em);
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (max-width: 80em) {
+  
+  .main-area {padding: 0em;}
+  .card {margin-bottom: 0em;}	
+}
+
+@media screen and (min-width: 80em) {
+    .cards {
+        margin-top: inherit;
+    }
+    .card {
+        -webkit-flex: 0 1 calc(33% - 1em);
+            -ms-flex: 0 1 calc(33% - 1em);
+                flex: 0 1 calc(33% - 1em);
+        margin-bottom: 2em;
+    }
+}
+
+    
+     @-o-keyframes effect {
+  0% {opacity: 0;}
+  50% {opacity:1;}
+  100% {opacity: 0;}
+}
+   @-webkit-keyframes effect {
+  0% {opacity: 0;}
+  50% {opacity:1;}
+  100% {opacity: 0;}
+}
+     @-moz-keyframes effect {
+  0% {opacity: 0;}
+  50% {opacity:1;}
+  100% {opacity: 0;}
+}
+     @keyframes effect {
+  0% {opacity: 0;}
+  50% {opacity:1;}
+  100% {opacity: 0;}
+}
+    
+    #load_screen {
+        background-color:black;
+        position:fixed;
+        top:0;
+        opacity:1;
+        z-index:10;
+        width:100%;
+            height:1600px;
+        
+    }
+    #loading {
+        color:whitesmoke;
+        text-align: center;
+        font-size: 4em;
+        margin-top:20%;
+        font-family:lato;
+        -webkit-animation: effect 3s;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+    animation: effect 3s;
+    animation-iteration-count: 1000;
+    }
+      .curbi {
+        height:70%;
+     margin: auto;
+        }
+header {
+    z-index:100;
+background-color:black;
+height:10%;
+width:100%
+}
+header h1 {
+    padding-top:1%;
+font-family:lato;
+color:white;
+}
+#blue {
+    padding-top:1%;
+color:aqua;
+}
+    #blue1 {
+
+color:aqua;
+}
+    .card-content {
+        margin: auto;
+    }
+    h1 {
+        font-family:lato;
+        color:#2F4F4F;;
+    }
+    .backimg {
+        background-image:url(background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #section {
+        width:100%;
+        min-height:140%;
+        text-align: center;
+        background-color: whitesmoke;
+    }
+    #section2 {
+
+        max-width:100%;
+        max-height:140%;
+        text-align: center;
+        background-color: black;
+    }
+     #section3 {
+         max-width:100%;
+        max-height:140%;
+        text-align: center;
+        background-color: white;
+    }
+    .heading{
+        padding-top:1%;
+        font-size: 3em;
+    }
+    h2 {
+        font-family:lato;
+        color:#2F4F4F;;
+        max-width:100%;
+    }
+    .phone {
+        height:30%;
+        float:left;
+        
+    }
+   
+    .steps {
+
+    }
+        .sizing-imp {
+
+    }
+    #img-spacing {
+        -webkit-filter: invert(1);
+   filter: invert(1);
+        max-height:50px;
+        max-width: 50px;
+    }
+    @media screen and (max-width:600px) {
+        .sizing-imp {
+            display: grid;
+        } 
+        #img-spacing {
+            margin:auto;
+        }
+        
+       .curbi {
+            height: 70%;
+        }
+    }
+    @media screen and (max-width:480px) {
+         header {
+            height:15%;
+        }
+    }
+    
+    @media screen and (max-width:300px) {
+         
+            .curbi {
+            height: 60%;
+        }
+    }
+    /*start of the  header animation*/
+ .header {
+     color:black;
+     font-family: sans-serif;
+  background-color: #fff;
+  box-shadow: 0.1rem 0.1rem 0.4rem 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  width: 100%;
+  z-index: 3;
+}
+    
+.header a {
+  text-decoration: none;
+}
+.header .logo {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  padding: 0 2rem;
+  text-decoration: none;
+}
+.header > ul.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-basis: 100%;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+  overflow: auto;
+  background-color: #fff;
+}
+.header > ul.menu > li {
+  min-width: 8rem;
+}
+.header > ul.menu > li > a {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  padding: 0 2rem;
+  text-decoration: none;
+}
+.header > ul.menu > li > a:hover {
+  background-color: #f5f6f7;
+}
+.header .menu-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+  user-select: none;
+}
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: .2rem;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 1.8rem;
+}
+.header .menu-icon .navicon:before, .header .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+.header .menu-icon .navicon:before {
+  top: .5rem;
+}
+.header .menu-icon .navicon:after {
+  top: -.5rem;
+}
+.header .menu-btn {
+  display: none;
+}
+.header .menu-btn:hover {
+  background-color: #f4f4f4;
+}
+.header .menu-btn:checked ~ .menu {
+  max-height: calc(85vh - 5rem);
+}
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before, .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+.dropdown input[type=checkbox] {
+  display: none;
+}
+.dropdown input[type=checkbox]:checked ~ label {
+  background-color: #0081FF;
+  color: #FFF;
+}
+.dropdown input[type=checkbox]:checked ~ label:after {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAzMiAzMiIgaGVpZ2h0PSIzMnB4IiBpZD0i0KHQu9C+0LlfMSIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHdpZHRoPSIzMnB4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNMTYuNzE0LDExLjI5N2MtMC4zODktMC4zODktMS4wMzktMC4zODktMS40MjksMGwtOC45OTksOC45NzYgIGMtMC4zOTQsMC4zOTQtMC4zOTQsMS4wMzMsMCwxLjQyNmMwLjM5NCwwLjM5NCwxLjAzNCwwLjM5NCwxLjQyOCwwTDE2LDEzLjQzNmw4LjI4NSw4LjI2NGMwLjM5NSwwLjM5NCwxLjAzNCwwLjM5NCwxLjQyOSwwICBjMC4zOTQtMC4zOTQsMC4zOTQtMS4wMzMsMC0xLjQyNkwxNi43MTQsMTEuMjk3eiIgZmlsbD0iI0ZGRkZGRiIgaWQ9IkV4cGFuZF9MZXNzIi8+PGcvPjxnLz48Zy8+PGcvPjxnLz48Zy8+PC9zdmc+");
+}
+.dropdown input[type=checkbox]:checked ~ ul {
+  display: block;
+}
+.dropdown label {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  padding: 0 2rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.dropdown label:hover {
+  background-color: #f5f6f7;
+}
+.dropdown label:after {
+  display: inline-block;
+  content: "";
+  margin-left: .5em;
+  height: 1.5rem;
+  width: 1.5rem;
+  background: url("data:image/svg+xml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAzMiAzMiIgaGVpZ2h0PSIzMnB4IiBpZD0i0KHQu9C+0LlfMSIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHdpZHRoPSIzMnB4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNMjQuMjg1LDExLjI4NEwxNiwxOS41NzFsLTguMjg1LTguMjg4Yy0wLjM5NS0wLjM5NS0xLjAzNC0wLjM5NS0xLjQyOSwwICBjLTAuMzk0LDAuMzk1LTAuMzk0LDEuMDM1LDAsMS40M2w4Ljk5OSw5LjAwMmwwLDBsMCwwYzAuMzk0LDAuMzk1LDEuMDM0LDAuMzk1LDEuNDI4LDBsOC45OTktOS4wMDIgIGMwLjM5NC0wLjM5NSwwLjM5NC0xLjAzNiwwLTEuNDMxQzI1LjMxOSwxMC44ODksMjQuNjc5LDEwLjg4OSwyNC4yODUsMTEuMjg0eiIgZmlsbD0iIzMzMzMzMyIgaWQ9IkV4cGFuZF9Nb3JlIi8+PGcvPjxnLz48Zy8+PGcvPjxnLz48Zy8+PC9zdmc+") center center no-repeat;
+  background-size: contain;
+}
+.dropdown > ul {
+  position: relative;
+  list-style: none;
+  text-align: left;
+  width: auto;
+  min-width: 15rem;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+  display: none;
+}
+.dropdown > ul > li {
+  float: none;
+  display: flex;
+  padding-left: 4rem;
+  background-color: #0081FF;
+  color: #fff;
+  cursor: pointer;
+}
+.dropdown > ul > li:hover {
+  background-color: #0081FF;
+}
+.dropdown > ul > li a {
+  justify-content: flex-start;
+  color: #FFF;
+  padding: 1rem;
+}
+
+@media (min-width: 60em) {
+  .header {
+    justify-content: flex-end;
+  }
+  .header .logo {
+float:left;
+  }
+  .header li {
+    float: left;
+  }
+  .header li a {
+    display: flex;
+    justify-content: center;
+  }
+  .header ul.menu {
+    flex-basis: auto;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+  .header .dropdown > ul {
+    position: absolute;
+  }
+  .header .dropdown > ul > li {
+    display: block;
+    padding-left: 2rem;
+  }
+  .header .dropdown label {
+    justify-content: center;
+  }
+}
+
+</style>
